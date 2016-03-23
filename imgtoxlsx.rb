@@ -25,14 +25,14 @@ optparse = OptionParser.new do |opts|
 	opts.on("-o", "--output [OUTPUT_FILE]",
 		"output file name to use (default: #{options[:out]}") do |output|
 		options[:out] = output
-    end
+	end
 
 
 
-  	opts.on('-h', '--help', 'Display this screen') do
-    	puts "\n\n#{optparse}\n\n"
-    	exit
-  	end
+	opts.on('-h', '--help', 'Display this screen') do
+		puts "\n\n#{optparse}\n\n"
+		exit
+	end
 end
 
 
