@@ -27,7 +27,6 @@ optparse = OptionParser.new do |opts|
 		options[:out] = output
     end
 
-    options[:scale] = 1
 
 
   	opts.on('-h', '--help', 'Display this screen') do
